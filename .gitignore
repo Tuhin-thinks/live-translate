@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# uv / virtualenv
+.venv/
+
+# Downloaded Whisper weights (several GB, re-downloaded on first run)
+models/
+models_v3/
+
+# Logs and local scratch
+*.log
+*.wav
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
