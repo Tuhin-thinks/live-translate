@@ -1,6 +1,12 @@
 # live-translate
 
-Live English captions for whatever your Windows PC is playing.
+**Real-time AI subtitles for anything playing on your Windows PC.** Watch Japanese anime, streams, games, or videos with live English captions — translated offline by Whisper, on your own GPU.
+
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?logo=windows)
+![Python](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)
+![Whisper](https://img.shields.io/badge/model-faster--whisper%20large--v3-412991)
+![CUDA](https://img.shields.io/badge/GPU-CUDA%20accelerated-76B900?logo=nvidia&logoColor=white)
+![Offline](https://img.shields.io/badge/runs-100%25%20offline-success)
 
 live-translate listens to your system audio, so it works with a YouTube video, an anime episode, a game, a stream or a call. It translates the speech with a local Whisper model and shows the result as a borderless caption bar at the bottom of your screen. Everything runs on your machine, with no cloud service and no API key.
 
@@ -43,7 +49,7 @@ On the CPU it works but is slow. `large-v3` takes several seconds per phrase, so
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 # 2. Get the code and install dependencies
-git clone <this-repo-url> live-translate
+git clone https://github.com/Tuhin-thinks/live-translate.git
 cd live-translate
 uv sync
 
